@@ -518,7 +518,7 @@ section {
 
 .top-selling-vendor-last-article {
   width: 100%;
-  background-image: url(/images/h6_banner3.jpg);
+  background-image: url(../images/h6_banner3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 17px;
@@ -884,8 +884,12 @@ section {
   opacity: 0;
   top: 21px;
   right: 0%;
-  transform: translateX(-50%);
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* transform: translateX(-50%); */
+  /* display: grid; */
 }
 .trending-slider-item:hover .shar {
   opacity: 1;
